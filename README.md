@@ -322,4 +322,106 @@ at x =5% we have sufficient evidence to reject the claim that the population mea
 
 </div>
 
+**Q2**
 
+The production process for a type of engine units has been recently modified. Before the modification, the
+population mean diameter was 5.350 mm. After modification, 9 units are randomly sampled. The sample mean
+diameter is 5.410 mm and the sample standard deviation is 0.120 mm. It is believed that the distribution for the
+diameters is normal. At a significance level of 5%, test the claim that the modification in production has changed
+the population mean diameter in the manufactured units.
+
+before mod mean diameter was 5.350
+
+after mod sample of 9 units take
+
+sample mean is 5.410 
+
+std is 0.120
+
+believed distribution is normal
+
+significance of 0.05
+
+claim $\mu _1 \neq \mu _2$
+
+Step 1 (Hypotheses):
+
+<details>
+<summary>The population parameter is _____ (fill in either 𝑝 or 𝜇).</summary>
+$\mu$
+</details>
+<details>
+<summary>In symbolic terms, the claim says _______________.</summary>
+$ \mu \neq 5.350$
+</details>
+<details>
+<summary>The hypotheses are 𝐻0: _______________ and 𝐻1: _______________.</summary>
+$H_0 \mu  = 5.350$ 
+$H_1 \mu  \neq 5.350$
+</details>
+
+---
+Step 2 (Test Statistic):
+---
+
+<details>
+<summary>The test statistic is __________ (fill in either 𝑍𝑠𝑡𝑎𝑡 or 𝑡𝑠𝑡𝑎𝑡).</summary>
+$t_{stat}$
+</details>
+<details>
+<summary>To use the test statistic, we must check the following condition(s):
+__________________________________________________________.</summary>
+the distribution of the  diameter is normal
+</details>
+<details>
+<summary>Provide the formula for the test statistic: _______________.</summary>
+$t_{stat} = \frac {\bar{X}-\mu}{\frac {s}{\sqrt n}}
+</details>
+<details>
+<summary>Calculate the value of the test statistic: _______________.</summary>
+$5.410-5.350 / 0.120/ \sqrt 9$
+$ 1.5
+</details>
+
+---
+Step 3 (Critical Value):
+---
+
+<details>
+<summary>The rejection region is
+_______________ (fill
+in one of ‘double-
+sided’, ‘left-sided’, and
+‘right-sided’).</summary>
+double sided
+</details>
+<details>
+<summary>The critical value(s)
+is/are __________.</summary>
+$\pm 2.306$ (df = n-1) check by cumulative prob $alpha$
+</details>
+<details>
+<summary>Write the rejection region in the form of inequality:
+________________________________________.</summary>
+$t \lt -2.306 || t \gt 2.306
+</details>
+<details>
+<summary>Sketch the rejection region and label the critical value(s):</summary>
+
+![bung](q2bung.png)
+
+</details>
+
+---
+Step 4 (Conclusion):
+---
+
+<details>
+<summary>The symbolic conclusion: ____________________ (fill in ‘reject 𝐻0‘ or ‘fail to reject 𝐻0‘).</summary>
+fail to reject $H_0$
+</details>
+<details>
+<summary>The English conclusion: _________________________________________________________
+____________________________________________________________________________</summary>
+as $alpha$ = 0.05 we dont have sufficient evidence to support the claim that the modification changed the population mean diameter of the units
+</details>
