@@ -269,11 +269,11 @@ step 2 test statistic
 
   <summary>
 <details>
-  <summary>the test statistic is $t_{stat}$ or $z_{stat}   </summary>
+  <summary>the test statistic is $t_{stat}$ or $z_{stat}$   </summary>
 $t_{stat}$
 </details>
 <details>
-  <summary>to use the $t_{stat} we must check the following condition(s) </summary> 
+  <summary>to use the $t_{stat}$ we must check the following condition(s) </summary> 
 that the population of the preferred keyboard height is normally distributed
 </details>
 <details>
