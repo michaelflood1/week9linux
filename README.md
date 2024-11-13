@@ -1,8 +1,10 @@
-<style>
-  body {
-    font-size: calc(100% + 2px);
-  }
-</style>
+<head>
+  <style>
+    body {
+      font-size: calc(100% + 2px);
+    }
+  </style>
+</head>
 
 # Hypothesis testing ( one mean )
 
