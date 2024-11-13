@@ -1,5 +1,5 @@
 # Hypothesis testing ( one mean )
-<div>
+<div style="font-size: calc(100% +2px);">
 In statistics a hypothesis is a claim about a population parameter
 
 **null hypothesis / alternative hypothesis**
