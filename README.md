@@ -33,7 +33,7 @@ level of 5%, test the claim that Android’s market share stayed the same from 2
 
 2. test statistic
 
-    $z= \frac{\hat {p}-p}{\sqrt \frac {p(1-p)}{n}}$
+    $z= \frac{\hat{p}-p}{\sqrt \frac {p(1-p)}{n}}$
 
     $ \frac {0.895 - 0.87} {0.010635} = 2.35$
 
@@ -342,7 +342,7 @@ believed distribution is normal
 
 significance of 0.05
 
-claim $\mu _1 \neq \mu _2$
+
 
 Step 1 (Hypotheses):
 
@@ -425,3 +425,305 @@ fail to reject $H_0$
 ____________________________________________________________________________</summary>
 as $alpha$ = 0.05 we dont have sufficient evidence to support the claim that the modification changed the population mean diameter of the units
 </details>
+
+
+
+**Q3**
+
+In the past, the average response time to a particular editing command was 43 ms. After a new operating
+system has been installed, 16 computers with the new operating system are randomly sampled. The sample
+average is 40 ms and the sample standard deviation is 10 ms. Assume that the response time is normally
+distributed. At a significance level of 2.5%, test the claim that the population average response time has not
+been improved due to the installation of the new operating system.
+
+old avg response 43 ms
+
+after new installation 16 computers sampled
+
+sample avg is 40ms 
+
+std 10 ms
+
+assume normally distrod
+
+significance of 0.025
+
+
+
+Step 1 (Hypotheses):
+
+<details>
+<summary>The population parameter is _____ (fill in either 𝑝 or 𝜇).</summary>
+$\mu$
+</details>
+<details>
+<summary>In symbolic terms, the claim says _______________.</summary>
+$ \mu \neq 43ms$
+</details>
+<details>
+<summary>The hypotheses are 𝐻0: _______________ and 𝐻1: _______________.</summary>
+$H_0 \mu  \geq 43$ 
+$H_1 \mu  \lt 43$
+</details>
+
+---
+Step 2 (Test Statistic):
+---
+
+<details>
+<summary>The test statistic is __________ (fill in either 𝑍𝑠𝑡𝑎𝑡 or 𝑡𝑠𝑡𝑎𝑡).</summary>
+$t_{stat}$
+</details>
+<details>
+<summary>To use the test statistic, we must check the following condition(s):
+__________________________________________________________.</summary>
+the distribution of the  response time  is normal
+</details>
+<details>
+<summary>Provide the formula for the test statistic: _______________.</summary>
+$t_{stat} = \frac {\bar{X}-\mu}{\frac {s}{\sqrt n}}
+</details>
+<details>
+<summary>Calculate the value of the test statistic: _______________.</summary>
+$$
+$ -1.2
+</details>
+
+---
+Step 3 (Critical Value):
+---
+
+<details>
+<summary>The rejection region is
+_______________ (fill
+in one of ‘double-
+sided’, ‘left-sided’, and
+‘right-sided’).</summary>
+left side 
+</details>
+<details>
+<summary>The critical value(s)
+is/are __________.</summary>
+$\pm 2.131$ (df = 16-1) check by cumulative prob $alpha$
+</details>
+<details>
+<summary>Write the rejection region in the form of inequality:
+________________________________________.</summary>
+$t \lt -2.131 $
+</details>
+<details>
+<summary>Sketch the rejection region and label the critical value(s):</summary>
+
+![bung](q3bung.png)
+
+</details>
+
+---
+Step 4 (Conclusion):
+---
+
+<details>
+<summary>The symbolic conclusion: ____________________ (fill in ‘reject 𝐻0‘ or ‘fail to reject 𝐻0‘).</summary>
+fail to reject $H_0$
+</details>
+<details>
+<summary>The English conclusion: _________________________________________________________
+____________________________________________________________________________</summary>
+as $alpha$ = 0.025 we dont have sufficient evidence to reject the claim that the population average response time has not been improved
+</details>
+
+Question 4
+In 2019, the daily per capita water use was 398.0 liters per capita in Vancouver. In 2020, 16 residents were
+sampled. The resulting sample mean of their daily per capita water use was 387.5 liters per capita and the
+sample standard deviation was 14 liters per capita. Study showed that the population of daily per capita water
+use was normally distributed. At a significance level of 2.5%, test the claim that the population mean of daily per
+capita water use in 2020 was lower than that of 2019
+
+claim pop mean water use in 2020 lower than 2019
+
+2019 daily water use 398
+2020 16 sampled
+sample water use 387.5
+std 14
+siglevel 0.025
+
+Step 1 (Hypotheses):
+
+<details>
+<summary>The population parameter is _____ (fill in either 𝑝 or 𝜇).</summary>
+$\mu$
+</details>
+<details>
+<summary>In symbolic terms, the claim says _______________.</summary>
+$ \mu \lt 398$
+</details>
+<details>
+<summary>The hypotheses are 𝐻0: _______________ and 𝐻1: _______________.</summary>
+$H_0 \mu  = 398$ 
+$H_1 \mu  \lt 398$
+</details>
+
+---
+Step 2 (Test Statistic):
+---
+
+<details>
+<summary>The test statistic is __________ (fill in either 𝑍𝑠𝑡𝑎𝑡 or 𝑡𝑠𝑡𝑎𝑡).</summary>
+$t_{stat}$
+</details>
+<details>
+<summary>To use the test statistic, we must check the following condition(s):
+__________________________________________________________.</summary>
+the distribution of the  daily water use was normal
+</details>
+<details>
+<summary>Provide the formula for the test statistic: _______________.</summary>
+$t_{stat} = \frac {\bar{X}-\mu}{\frac {s}{\sqrt n}}
+</details>
+<details>
+<summary>Calculate the value of the test statistic: _______________.</summary>
+$$
+$ -3
+</details>
+
+---
+Step 3 (Critical Value):
+---
+
+<details>
+<summary>The rejection region is
+_______________ (fill
+in one of ‘double-
+sided’, ‘left-sided’, and
+‘right-sided’).</summary>
+left
+</details>
+<details>
+<summary>The critical value(s)
+is/are __________.</summary>
+$\pm -2.131$ (df = 16-1) check by cumulative prob $alpha$
+</details>
+<details>
+<summary>Write the rejection region in the form of inequality:
+________________________________________.</summary>
+$t \lt -2.131 $
+</details>
+<details>
+<summary>Sketch the rejection region and label the critical value(s):</summary>
+
+![bung](q3bung.png)
+
+</details>
+
+---
+Step 4 (Conclusion):
+---
+
+<details>
+<summary>The symbolic conclusion: ____________________ (fill in ‘reject 𝐻0‘ or ‘fail to reject 𝐻0‘).</summary>
+fail to reject $H_0$
+</details>
+<details>
+<summary>The English conclusion: _________________________________________________________
+____________________________________________________________________________</summary>
+as $alpha$ = 0.025 we  have sufficient evidence to support the claim that the population mean of the daily per capita water use in 2020 was lower than that of 2019
+</details>
+
+
+
+Question 5
+Let 𝑝 denote the proportion of BCIT computing students who are left-handed. Suppose you randomly select a
+sample of 250 BCIT computing students and find that 12 are left-handed. Test the claim that 𝑝 = 0.10 at a 5%
+significance level. (Wikipedia says 10% of people are left-handed.)
+
+p = .1
+$\hat{p}$ =  = 0.048
+
+
+
+0.05 siglevel
+
+
+Step 1 (Hypotheses):
+
+<details>
+<summary>The population parameter is _____ (fill in either 𝑝 or 𝜇).</summary>
+$\p$
+</details>
+<details>
+<summary>In symbolic terms, the claim says _______________.</summary>
+$ p = 0.1$
+</details>
+<details>
+<summary>The hypotheses are 𝐻0: _______________ and 𝐻1: _______________.</summary>
+$H_0 p  = .1$ 
+$H_1 p  \neq .1$
+</details>
+
+---
+Step 2 (Test Statistic):
+---
+
+<details>
+<summary>The test statistic is __________ (fill in either 𝑍𝑠𝑡𝑎𝑡 or 𝑡𝑠𝑡𝑎𝑡).</summary>
+$z_{stat}$
+</details>
+<details>
+<summary>To use the test statistic, we must check the following condition(s):
+__________________________________________________________.</summary>
+$np=250 *.1 = 25 \geq 4 and nq = 250 * .9 - 225 \geq 5
+</details>
+<details>
+<summary>Provide the formula for the test statistic: _______________.</summary>
+$Z_{stat} = \frac {\hat{p}-p}{\frac \sqrt {p(1-p)}{n}}$
+</details>
+<details>
+<summary>Calculate the value of the test statistic: _______________.</summary>
+$$
+$ -2.74
+</details>
+
+---
+Step 3 (Critical Value):
+---
+
+<details>
+<summary>The rejection region is
+_______________ (fill
+in one of ‘double-
+sided’, ‘left-sided’, and
+‘right-sided’).</summary>
+double
+</details>
+<details>
+<summary>The critical value(s)
+is/are __________.</summary>
+$\pm $ 0.05 / 2 - 0,025 = z \pm 1.96$ check by cumulative prob $alpha$
+</details>
+<details>
+<summary>Write the rejection region in the form of inequality:
+________________________________________.</summary>
+$t \lt -1.96 || t \gt 1.96 $
+</details>
+<details>
+<summary>Sketch the rejection region and label the critical value(s):</summary>
+
+![bung](bung5.png)
+
+</details>
+
+---
+Step 4 (Conclusion):
+---
+
+<details>
+<summary>The symbolic conclusion: ____________________ (fill in ‘reject 𝐻0‘ or ‘fail to reject 𝐻0‘).</summary>
+reject $H_0$
+</details>
+<details>
+<summary>The English conclusion: _________________________________________________________
+____________________________________________________________________________</summary>
+as $alpha$ = 0.05 we have enough evidence to reject the claim that left handed proportion among bcit students is 10%
+</details>
+
+
