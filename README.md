@@ -1,11 +1,3 @@
-<head>
-  <style>
-    body {
-      font-size: calc(100% + 2px);
-    }
-  </style>
-</head>
-
 # Hypothesis testing ( one mean )
 <div>
 In statistics a hypothesis is a claim about a population parameter
