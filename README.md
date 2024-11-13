@@ -1,5 +1,5 @@
 # Hypothesis testing ( one mean )
-
+<div>
 In statistics a hypothesis is a claim about a population parameter
 
 **null hypothesis / alternative hypothesis**
@@ -320,6 +320,6 @@ step 4 Conclusion
 at x =5% we have sufficient evidence to reject the claim that the population mean of the preferred keyboard height is 66.0 cm
 </details>
 
-
+</div>
 
 
